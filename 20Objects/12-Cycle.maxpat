@@ -244,20 +244,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.15,
-					"bubbleside" : 2,
-					"id" : "obj-90",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2212.418370544910431, 107.843140661716461, 80.0, 39.0 ],
-					"text" : "Exercise!"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-89",
 					"linecount" : 4,
 					"maxclass" : "comment",

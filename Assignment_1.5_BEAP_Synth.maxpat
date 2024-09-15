@@ -721,7 +721,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.407405197620392, 271.851842939853668, 138.0, 22.0 ],
+					"patching_rect" : [ 67.407405197620392, 271.851842939853668, 159.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -729,8 +729,8 @@
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
-					"text" : "pattrstorage multiSynths",
-					"varname" : "multiSynths"
+					"text" : "pattrstorage multiple_synths",
+					"varname" : "multiple_synths"
 				}
 
 			}
@@ -1310,6 +1310,13 @@
 , 			{
 				"name" : "bp.VCA.maxpat",
 				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Level",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multiple_synths.json",
+				"bootpath" : "~/OneDrive/Documents/GitHub/Interactive_Sound_FA24",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

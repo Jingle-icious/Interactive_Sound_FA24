@@ -293,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 29.0, 512.0, 230.0, 208.0 ],
+					"patching_rect" : [ 29.0, 512.0, 363.0, 333.0 ],
 					"prototypename" : "pixl",
 					"varname" : "viewr",
 					"viewvisibility" : 1
@@ -341,7 +341,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 671.0, 354.0, 186.0, 108.0 ],
+					"patching_rect" : [ 622.0, 359.0, 186.0, 108.0 ],
 					"varname" : "vizzieconvertr",
 					"viewvisibility" : 1
 				}
@@ -364,7 +364,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 415.0, 332.0, 208.0, 130.0 ],
+					"patching_rect" : [ 384.5, 343.0, 208.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "brcosr",
 					"viewvisibility" : 1
@@ -740,7 +740,7 @@
 , 			{
 				"name" : "brcosa.genjit",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 8/examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}

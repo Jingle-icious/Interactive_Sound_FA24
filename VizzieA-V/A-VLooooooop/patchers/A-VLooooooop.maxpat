@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -2527.0, 185.0, 2494.0, 1283.0 ],
+		"rect" : [ 34.0, 77.0, 1639.0, 908.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -40,14 +40,178 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : "Lucida Sans",
+					"fontsize" : 48.0,
+					"id" : "obj-92",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 406.97368061542511, 130.0, 663.0, 63.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 695.121967792510986, 74.390245676040649, 570.0, 63.0 ],
+					"text" : "*Astarion Disapproves*"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-91",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 391.97368061542511, 115.0, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 874.390264749526978, 158.5365891456604, 186.585370302200317, 27.0 ],
+					"text" : "A Random Keyboard!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-90",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 380.0, 37.499999642372131, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1406.097594499588013, 760.975627899169922, 206.097565889358521, 27.0 ],
+					"text" : "Video! But it's Broken!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-64",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 386.18420684337616, 71.0, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 391.609768033027649, 623.076885938644409, 218.0, 27.0 ],
+					"text" : "Some Random Settings!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-56",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 376.97368061542511, 100.0, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1102.439050674438477, 858.536605834960938, 80.487806797027588, 27.0 ],
+					"text" : "Volume!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.394733548164368, 117.5, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 403.658546209335327, 387.804887294769287, 218.0, 27.0 ],
+					"text" : "Drag a Video!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"films" : [  ],
+					"id" : "obj-45",
+					"maxclass" : "imovie",
+					"name" : "what were u thinkgin.gif",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 167.0, 704.0, 320.0, 240.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 735.36587119102478, 264.63415265083313, 474.390255212783813, 540.243915319442749 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 320.394733786582947, 148.0, 218.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 403.658546209335327, 223.170737028121948, 218.0, 27.0 ],
+					"text" : "Choose a Song!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.443137254901961, 0.019607843137255, 0.019607843137255, 1.0 ],
+					"id" : "obj-3",
+					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1698.475609302520752, 1121.463441371917725, 83.048781394958496, 101.463417053222656 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 848.780508041381836, 821.951239109039307, 237.804883718490601, 101.219514608383179 ],
+					"stripecolor" : [ 0.129411764705882, 0.125490196078431, 0.125490196078431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"basictuning" : 0,
-					"clipheight" : 51.0,
+					"clipheight" : 25.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\evely\\OneDrive\\4-SPRING24 SEMESTER\\ATLS 3200 - Sound\\Assignment 6\\Assignment6.mp3",
-								"filename" : "Assignment6.mp3",
+								"absolutepath" : "Baldur's Gate 3 - OST - I Want To Live.mp3",
+								"filename" : "Baldur's Gate 3 - OST - I Want To Live.mp3",
 								"filekind" : "audiofile",
-								"id" : "u967003921",
+								"id" : "u994003852",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "10 Baldur's Gate 3 Original Soundtrack - Cunning Cruel Crits.mp3",
+								"filename" : "10 Baldur's Gate 3 Original Soundtrack - Cunning Cruel Crits.mp3",
+								"filekind" : "audiofile",
+								"id" : "u267003860",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "08  Baldur's Gate 3 Original Soundtrack - Harpy Song (Extended & Remastered).mp3",
+								"filename" : "08  Baldur's Gate 3 Original Soundtrack - Harpy Song (Extended & Remastered).mp3",
+								"filekind" : "audiofile",
+								"id" : "u183003864",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -59,7 +223,7 @@
 								"absolutepath" : "Weeping Dawn - Baldur's Gate III In Game Song Cinematic.mp3",
 								"filename" : "Weeping Dawn - Baldur's Gate III In Game Song Cinematic.mp3",
 								"filekind" : "audiofile",
-								"id" : "u732008862",
+								"id" : "u203003868",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -83,6 +247,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 777.0, 284.0, 263.0, 104.0 ],
 					"pitchcorrection" : 0,
+					"presentation" : 1,
+					"presentation_rect" : [ 284.459043145179749, 264.63415265083313, 438.461512327194214, 101.282045245170593 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -95,36 +261,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1528.0, 1147.0, 130.0, 130.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1528.0, 1147.0, 130.0, 130.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1716.0, 1116.0, 48.0, 136.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~"
+					"patching_rect" : [ 1528.0, 1147.0, 130.0, 130.0 ]
 				}
 
 			}
@@ -160,6 +297,7 @@
 			}
 , 			{
 				"box" : 				{
+					"blackkeycolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "kslider",
 					"numinlets" : 2,
@@ -168,7 +306,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1952.0, 911.0, 280.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1952.0, 911.0, 280.0, 45.0 ]
+					"presentation_rect" : [ 763.414652347564697, 191.463419198989868, 420.0, 64.0 ]
 				}
 
 			}
@@ -287,11 +425,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.631372549019608, 0.36078431372549, 0.36078431372549, 1.0 ],
 					"id" : "obj-85",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1723.0, 1275.0, 45.0, 45.0 ]
+					"patching_rect" : [ 1717.5, 1238.048810005187988, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 795.121970176696777, 846.341483592987061, 45.0, 45.0 ]
 				}
 
 			}
@@ -337,9 +480,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 754.0, 148.5, 113.0, 22.0 ],
+					"patching_rect" : [ 678.289467215538025, 223.684208393096924, 239.0, 22.0 ],
 					"style" : "rnbohighcontrast",
-					"text" : "Assignment6.mp3"
+					"text" : "Baldur's Gate 3 - OST - I Want To Live.mp3"
 				}
 
 			}
@@ -350,7 +493,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 786.0, 114.0, 58.0, 22.0 ],
+					"patching_rect" : [ 736.5, 171.710524678230286, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -374,121 +517,9 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 707.0, 457.0, 339.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 707.0, 457.0, 339.0, 116.0 ],
+					"presentation_rect" : [ 249.999985098838806, 814.560996413230896, 339.0, 116.0 ],
 					"varname" : "bp.Compressor[1]",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-54",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 779.0, 185.0, 23.0 ],
-					"text" : "LOOP START"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 764.0, 185.0, 23.0 ],
-					"text" : "LIGHT LEVEL"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1187.0, 246.0, 339.0, 23.0 ],
-					"text" : "LOW LIGHT"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 734.0, 185.0, 23.0 ],
-					"text" : "LOW LIGHT"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 779.0, 185.0, 23.0 ],
-					"text" : "LOOP END"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 764.0, 185.0, 23.0 ],
-					"text" : "LOOP START"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 749.0, 185.0, 23.0 ],
-					"text" : "LIGHT LEVEL"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 719.0, 185.0, 23.0 ],
-					"text" : "HIGH LIGHT"
 				}
 
 			}
@@ -517,64 +548,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 548.0, 504.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 3,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-56",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 704.0, 185.0, 43.0 ],
-					"text" : "Toggle \nController"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-45",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 704.0, 185.0, 23.0 ],
-					"text" : "PITCH"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-29",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 689.0, 185.0, 23.0 ],
-					"text" : "SPEED"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-64",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 674.0, 185.0, 23.0 ],
-					"text" : "SPEED"
 				}
 
 			}
@@ -1098,6 +1071,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2409.333405137062073, 329.333343148231506, 168.000005006790161, 133.333337306976318 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1228.048809766769409, 726.829285621643066, 168.292686939239502, 113.0 ],
 					"prototypename" : "pixl",
 					"varname" : "projectr",
 					"viewvisibility" : 1
@@ -1265,6 +1240,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1260.0, 916.0, 208.0, 113.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1617.073209285736084, 726.829285621643066, 208.0, 113.0 ],
 					"prototypename" : "pixl",
 					"varname" : "analyzr",
 					"viewvisibility" : 1
@@ -1336,7 +1313,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1480.0, 552.0, 214.0, 116.0 ],
+					"patching_rect" : [ 1522.0, 534.745775461196899, 214.0, 116.0 ],
 					"varname" : "bp.CV LFO",
 					"viewvisibility" : 1
 				}
@@ -1584,7 +1561,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 723.0, 148.0, 24.0, 24.0 ]
+					"patching_rect" : [ 736.5, 86.842104434967041, 24.0, 24.0 ]
 				}
 
 			}
@@ -1620,7 +1597,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 728.0, 192.0, 131.0, 22.0 ],
+					"patching_rect" : [ 736.5, 120.0, 131.0, 22.0 ],
 					"text" : "setclip 1 timestretch $1"
 				}
 
@@ -1644,7 +1621,7 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 1844.000054955482483, 282.666675090789795, 348.000010371208191, 180.00000536441803 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1844.000054955482483, 282.666675090789795, 348.000010371208191, 180.00000536441803 ],
+					"presentation_rect" : [ 387.179464101791382, 652.076885938644409, 331.707324981689453, 156.097564697265625 ],
 					"prototypename" : "pixl",
 					"varname" : "reflectr",
 					"viewvisibility" : 1
@@ -1670,7 +1647,7 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 2217.333399415016174, 329.333343148231506, 176.00000524520874, 133.333337306976318 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2217.333399415016174, 329.333343148231506, 176.00000524520874, 133.333337306976318 ],
+					"presentation_rect" : [ 202.564090490341187, 663.458999633789062, 176.00000524520874, 133.333337306976318 ],
 					"varname" : "mixfadr",
 					"viewvisibility" : 1
 				}
@@ -1695,7 +1672,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 1844.000054955482483, 104.000003099441528, 358.0, 158.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1844.000054955482483, 104.000003099441528, 358.0, 158.0 ],
+					"presentation_rect" : [ 284.584139883518219, 426.923051476478577, 432.05125629901886, 160.25640070438385 ],
 					"prototypename" : "pixl",
 					"varname" : "playr",
 					"viewvisibility" : 1
@@ -1732,7 +1709,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2217.0, 104.0, 276.0, 208.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2217.0, 104.0, 276.0, 208.0 ],
+					"presentation_rect" : [ 1228.048809766769409, 229.268298149108887, 597.560989856719971, 475.609767436981201 ],
 					"prototypename" : "pixl",
 					"varname" : "viewr",
 					"viewvisibility" : 1
@@ -1757,6 +1734,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1515.0, 126.0, 120.0, 54.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1448.780522346496582, 795.121970176696777, 120.0, 54.0 ],
 					"prototypename" : "pixl",
 					"varname" : "audio2vizzie",
 					"viewvisibility" : 1
@@ -1807,20 +1786,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"order" : 0,
@@ -2119,6 +2084,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 1 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -2565,15 +2546,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 1 ],
-					"order" : 0,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-116", 0 ],
 					"order" : 1,
 					"source" : [ "obj-86", 0 ]
 				}
@@ -2581,8 +2554,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-116", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -2642,7 +2615,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-15::obj-100" : [ "range[17]", "range", 0 ],
 			"obj-15::obj-104" : [ "pictctrl[11]", "pictctrl[1]", 0 ],
 			"obj-15::obj-119" : [ "Zoom", "Zoom", 0 ],
@@ -3014,9 +2986,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Assignment6.mp3",
-				"bootpath" : "~/OneDrive/4-SPRING24 SEMESTER/ATLS 3200 - Sound/Assignment 6",
-				"patcherrelativepath" : "../../../../../../4-SPRING24 SEMESTER/ATLS 3200 - Sound/Assignment 6",
+				"name" : "08  Baldur's Gate 3 Original Soundtrack - Harpy Song (Extended & Remastered).mp3",
+				"bootpath" : "~/OneDrive/Documents/GitHub/Interactive_Sound_FA24/VizzieA-V/A-VLooooooop/media",
+				"patcherrelativepath" : "../media",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "10 Baldur's Gate 3 Original Soundtrack - Cunning Cruel Crits.mp3",
+				"bootpath" : "~/OneDrive/Documents/GitHub/Interactive_Sound_FA24/VizzieA-V/A-VLooooooop/media",
+				"patcherrelativepath" : "../media",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Baldur's Gate 3 - OST - I Want To Live.mp3",
+				"bootpath" : "~/OneDrive/Documents/GitHub/Interactive_Sound_FA24/VizzieA-V/A-VLooooooop/media",
+				"patcherrelativepath" : "../media",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -3264,7 +3250,12 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"default_bgcolor" : [ 0.313725490196078, 0.168627450980392, 0.168627450980392, 1.0 ],
+		"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+		"selectioncolor" : [ 0.72156862745098, 0.050980392156863, 0.0, 1.0 ],
+		"clearcolor" : [ 0.611764705882353, 0.27843137254902, 0.27843137254902, 0.0 ],
+		"bgcolor" : [ 0.427450980392157, 0.137254901960784, 0.137254901960784, 1.0 ]
 	}
 
 }

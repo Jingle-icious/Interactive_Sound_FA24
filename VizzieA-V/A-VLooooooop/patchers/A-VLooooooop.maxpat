@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-8",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 302.0, 728.0, 284.0, 229.0 ],
+					"pic" : "what were u thinkgin.gif",
+					"presentation" : 1,
+					"presentation_rect" : [ 728.914652347564697, 264.63415265083313, 491.567755958408725, 545.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Lucida Sans",
 					"fontsize" : 48.0,
@@ -109,7 +124,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.97368061542511, 100.0, 218.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1102.439050674438477, 858.536605834960938, 80.487806797027588, 27.0 ],
+					"presentation_rect" : [ 1102.0, 855.0, 80.487806797027588, 27.0 ],
 					"text" : "Volume!"
 				}
 
@@ -126,22 +141,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 403.658546209335327, 387.804887294769287, 218.0, 27.0 ],
 					"text" : "Drag a Video!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"films" : [  ],
-					"id" : "obj-45",
-					"maxclass" : "imovie",
-					"name" : "what were u thinkgin.gif",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 167.0, 704.0, 320.0, 240.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 735.36587119102478, 264.63415265083313, 474.390255212783813, 540.243915319442749 ]
 				}
 
 			}
@@ -164,7 +163,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.443137254901961, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"id" : "obj-3",
-					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"maxclass" : "gain~",
 					"multichannelvariant" : 0,
 					"numinlets" : 1,
@@ -173,7 +171,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1698.475609302520752, 1121.463441371917725, 83.048781394958496, 101.463417053222656 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 848.780508041381836, 821.951239109039307, 237.804883718490601, 101.219514608383179 ],
+					"presentation_rect" : [ 849.0, 818.0, 237.804883718490601, 101.219514608383179 ],
 					"stripecolor" : [ 0.129411764705882, 0.125490196078431, 0.125490196078431, 1.0 ]
 				}
 
@@ -297,7 +295,6 @@
 			}
 , 			{
 				"box" : 				{
-					"blackkeycolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "kslider",
 					"numinlets" : 2,
@@ -426,7 +423,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.631372549019608, 0.36078431372549, 0.36078431372549, 1.0 ],
 					"id" : "obj-85",
 					"maxclass" : "ezdac~",
@@ -434,7 +430,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1717.5, 1238.048810005187988, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 795.121970176696777, 846.341483592987061, 45.0, 45.0 ]
+					"presentation_rect" : [ 795.0, 842.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -3234,6 +3230,13 @@
 				"name" : "warpedmirror.genjit",
 				"bootpath" : "C74:/packages/vizzie/patchers/gen",
 				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "what were u thinkgin.gif",
+				"bootpath" : "~/OneDrive/Documents/GitHub/Interactive_Sound_FA24/VizzieA-V/A-VLooooooop/media",
+				"patcherrelativepath" : "../media",
+				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{

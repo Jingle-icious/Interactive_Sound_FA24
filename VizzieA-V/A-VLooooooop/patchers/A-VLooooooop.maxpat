@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -2527.0, 185.0, 2494.0, 1283.0 ],
+		"rect" : [ 34.0, 77.0, 1639.0, 908.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "## The VIZZIE audio/video player/looper ##",
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vz.avplayr.maxpat",
+					"numinlets" : 7,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture", "signal", "signal", "" ],
+					"patching_rect" : [ 677.0, 126.0, 348.0, 170.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 518.420294046401978, 86.153841018676758, 348.0, 170.0 ],
+					"prototypename" : "pixl",
+					"varname" : "avplayr",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"bubble_bgcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"fontsize" : 14.0,
@@ -66,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1160.384721755981445, 918.846237182617188, 176.0, 55.0 ],
+					"patching_rect" : [ 1160.384721755981445, 918.846237182617188, 180.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 246.902624845504761, 546.902588367462158, 219.0, 55.0 ],
@@ -87,7 +113,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1145.384721755981445, 903.846237182617188, 176.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 626.221208512783051, 579.0, 218.796348214149475, 23.0 ],
+					"presentation_rect" : [ 626.221208512783051, 579.0, 219.0, 23.0 ],
 					"text" : "mess with the colors and the look ",
 					"textcolor" : [ 0.815686274509804, 0.0, 1.0, 1.0 ]
 				}
@@ -158,7 +184,7 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 1050.769330978393555, 180.000017166137695, 337.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 529.420294046401978, 270.714282751083374, 337.0, 160.0 ],
+					"presentation_rect" : [ 517.804919838905334, 270.714282751083374, 348.53843104839325, 159.999990463256836 ],
 					"prototypename" : "pixl",
 					"varname" : "jimmy",
 					"viewvisibility" : 1
@@ -241,32 +267,6 @@
 					"presentation_rect" : [ 748.2255619764328, 447.0, 177.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "sketchr",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "## The VIZZIE video player/looper ##",
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "vz.playr.maxpat",
-					"numinlets" : 7,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 607.692365646362305, 180.000017166137695, 348.0, 158.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 492.920294046401978, 75.0, 410.0, 163.0 ],
-					"prototypename" : "pixl",
-					"varname" : "playplay[1]",
 					"viewvisibility" : 1
 				}
 
@@ -360,8 +360,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1835.384790420532227, 692.307758331298828, 107.0, 22.0 ],
-					"text" : "scale 0. 100 0. 50."
+					"patching_rect" : [ 1835.384790420532227, 692.307758331298828, 100.0, 22.0 ],
+					"text" : "scale 60 80 0 25."
 				}
 
 			}
@@ -477,6 +477,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1069.230871200561523, 610.769289016723633, 208.0, 113.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 534.04254937171936, 615.5, 208.0, 113.0 ],
 					"prototypename" : "pixl",
 					"varname" : "analyzr",
 					"viewvisibility" : 1
@@ -514,10 +516,10 @@
 					"color" : [ 0.815686274509804, 0.0, 1.0, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "Assignment5_Song.wav",
+								"absolutepath" : "C:\\Users\\evely\\OneDrive\\Documents\\GitHub\\Interactive_Sound_FA24\\VizzieA-V\\A-VLooooooop\\media\\Assignment5_Song.wav",
 								"filename" : "Assignment5_Song.wav",
 								"filekind" : "audiofile",
-								"id" : "u817009948",
+								"id" : "u818001858",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
@@ -526,14 +528,14 @@
 
 							}
 , 							{
-								"absolutepath" : "Assignment6.mp3",
+								"absolutepath" : "C:\\Users\\evely\\OneDrive\\Documents\\GitHub\\Interactive_Sound_FA24\\VizzieA-V\\A-VLooooooop\\media\\Assignment6.mp3",
 								"filename" : "Assignment6.mp3",
 								"filekind" : "audiofile",
-								"id" : "u919009952",
+								"id" : "u642001872",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -554,9 +556,9 @@
 					"patching_rect" : [ 1463.077062606811523, 80.000007629394531, 150.0, 92.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 253.699076414108276, 612.0, 150.0, 92.0 ],
+					"presentation_rect" : [ 254.736822366714478, 617.894688963890076, 157.894724607467651, 90.948175966739655 ],
 					"quality" : "basic",
-					"selectioncolor" : [ 0.0, 1.0, 0.082352941176471, 1.0 ],
+					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"timestretch" : [ 0 ],
 					"varname" : "playplay[2]"
 				}
@@ -564,7 +566,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.470588235294118, 0.0, 0.890196078431372, 1.0 ],
 					"id" : "obj-120",
 					"knobcolor" : [ 0.0, 1.0, 0.082352941176471, 1.0 ],
 					"maxclass" : "gain~",
@@ -575,7 +576,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1610.769384384155273, 476.923122406005859, 22.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.787580490112305, 721.89412385225296, 232.743334531784058, 68.141584634780884 ]
+					"presentation_rect" : [ 247.787580490112305, 721.89412385225296, 232.743334531784058, 68.141584634780884 ],
+					"stripecolor" : [ 0.72156862745098, 0.376470588235294, 0.376470588235294, 0.0 ]
 				}
 
 			}
@@ -623,7 +625,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.470588235294118, 0.0, 0.890196078431372, 1.0 ],
 					"color" : [ 0.0, 1.0, 0.082352941176471, 1.0 ],
 					"elementcolor" : [ 0.815686274509804, 0.047058823529412, 0.047058823529412, 1.0 ],
 					"id" : "obj-106",
@@ -632,7 +633,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1681.53862190246582, 533.84620475769043, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.274286031723022, 624.37168550491333, 67.25662899017334, 67.25662899017334 ]
+					"presentation_rect" : [ 419.594566583633423, 624.37168550491333, 67.25662899017334, 67.25662899017334 ]
 				}
 
 			}
@@ -640,7 +641,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.815686274509804, 0.0, 1.0, 1.0 ],
 					"format" : 6,
-					"htricolor" : [ 0.0, 1.0, 0.082352941176471, 1.0 ],
 					"id" : "obj-32",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -680,7 +680,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 288.0, 305.0, 347.787568330764771, 500.884894847869873 ],
+					"patching_rect" : [ 257.904797315597534, 266.153871536254883, 347.787568330764771, 500.884894847869873 ],
 					"pic" : "neon city.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 112.389366865158081, 6.194689512252808, 1448.672390222549438, 1091.150309801101685 ]
@@ -774,7 +774,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -782,7 +782,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -956,7 +956,6 @@
 			"obj-34::obj-39" : [ "pictctrl[47]", "pictctrl[1]", 0 ],
 			"obj-34::obj-6" : [ "pictctrl[12]", "pictctrl[1]", 0 ],
 			"obj-34::obj-64" : [ "umenu[4]", "umenu", 0 ],
-			"obj-6::obj-10" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
 			"obj-6::obj-112::obj-119" : [ "Speed high", "Speed high", 0 ],
 			"obj-6::obj-112::obj-120" : [ "Rate range", "Rate range", 0 ],
 			"obj-6::obj-112::obj-121" : [ "Speed low", "Speed low", 0 ],
@@ -965,7 +964,8 @@
 			"obj-6::obj-112::obj-79" : [ "Playback position", "Playback position", 0 ],
 			"obj-6::obj-112::obj-89" : [ "Reset range", "Reset range", 0 ],
 			"obj-6::obj-112::obj-92" : [ "Reset speed", "Reset speed", 0 ],
-			"obj-6::obj-20" : [ "pictctrl[13]", "pictctrl[1]", 0 ],
+			"obj-6::obj-16" : [ "pictctrl[50]", "pictctrl[1]", 0 ],
+			"obj-6::obj-20" : [ "pictctrl[8]", "pictctrl[1]", 0 ],
 			"obj-6::obj-28" : [ "pictctrl[279]", "pictctrl[1]", 0 ],
 			"obj-6::obj-40" : [ "pictctrl[283]", "pictctrl[1]", 0 ],
 			"obj-6::obj-51" : [ "moviepath", "moviepath", 0 ],
@@ -1069,12 +1069,12 @@
 					"parameter_longname" : "pictctrl[47]"
 				}
 ,
-				"obj-6::obj-10" : 				{
-					"parameter_longname" : "pictctrl[8]"
+				"obj-6::obj-16" : 				{
+					"parameter_longname" : "pictctrl[50]"
 				}
 ,
 				"obj-6::obj-20" : 				{
-					"parameter_longname" : "pictctrl[13]"
+					"parameter_longname" : "pictctrl[8]"
 				}
 
 			}
@@ -1170,6 +1170,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "vz.avplayr.maxpat",
+				"bootpath" : "C74:/packages/vizzie/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "vz.beapconvertr.maxpat",
 				"bootpath" : "C74:/packages/vizzie/patchers",
 				"type" : "JSON",
@@ -1177,12 +1183,6 @@
 			}
 , 			{
 				"name" : "vz.fadr.maxpat",
-				"bootpath" : "C74:/packages/vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.playr.maxpat",
 				"bootpath" : "C74:/packages/vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1

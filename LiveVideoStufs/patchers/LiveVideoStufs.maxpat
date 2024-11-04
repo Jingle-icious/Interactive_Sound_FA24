@@ -40,6 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bubbleusescolors" : 1,
+					"fontsize" : 16.0,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 242.63158655166626, 658.421075105667114, 96.0, 43.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 191.566272139549255, 373.493989706039429, 70.0, 43.0 ],
+					"text" : "See it Track!"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"autofit" : 1,
 					"id" : "obj-51",
 					"maxclass" : "fpic",
@@ -66,7 +84,7 @@
 					"patching_rect" : [ 227.63158655166626, 643.421075105667114, 96.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 859.134585976600647, 232.0, 69.230777978897095, 43.0 ],
+					"presentation_rect" : [ 859.134585976600647, 232.0, 70.0, 43.0 ],
 					"text" : "Camera Toggle!"
 				}
 
@@ -433,7 +451,6 @@
 				"box" : 				{
 					"basictuning" : 440,
 					"clipheight" : 20.0,
-					"color" : [ 0.815686274509804, 0.047058823529412, 0.047058823529412, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "CunningCruelCritsBG3.mp3",
@@ -669,7 +686,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.815686274509804, 0.047058823529412, 0.047058823529412, 1.0 ],
 					"id" : "obj-107",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
@@ -1030,6 +1046,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 686.0, 274.0, 253.0, 187.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 184.337356209754944, 421.686762571334839, 333.734952092170715, 224.096393823623657 ],
 					"sync" : 1
 				}
 
@@ -1436,7 +1454,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1444,7 +1462,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1617,7 +1635,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -1625,7 +1643,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -1885,7 +1903,8 @@
 			}
 , 			{
 				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/vizzie/code",
+				"bootpath" : "~/OneDrive/Documents/GitHub/Interactive_Sound_FA24/LiveVideoStufs/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

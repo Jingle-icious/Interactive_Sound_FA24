@@ -9,6 +9,7 @@ This is my repo for ATLS4519: Interactive Sound
 - 3 Max Synth Part 2 Due 10/2/24
 - 4 BEAP Vizzie A/V Loop Due 10/21/24
 - 5 Live Video Sound Due 11/4/24
+- 5.5 3D Oscilloscope Due 11/11/24
 
 
 

@@ -10,6 +10,7 @@ This is my repo for ATLS4519: Interactive Sound
 - 4 BEAP Vizzie A/V Loop Due 10/21/24
 - 5 Live Video Sound Due 11/4/24
 - 5.5 3D Oscilloscope Due 11/11/24
+- Final Project: Creative Choice Due 12/9/24
 
 
 
